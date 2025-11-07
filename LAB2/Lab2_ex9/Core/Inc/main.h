@@ -1,0 +1,103 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.h
+  * @brief          : Header for main.c file.
+  *                   This file contains the common defines of the application.
+  ******************************************************************************
+  * @attention
+  *
+  * <h2><center>&copy; Copyright (c) 2025 STMicroelectronics.
+  * All rights reserved.</center></h2>
+  *
+  * This software component is licensed by ST under BSD 3-Clause license,
+  * the "License"; You may not use this file except in compliance with the
+  * License. You may obtain a copy of the License at:
+  *                        opensource.org/licenses/BSD-3-Clause
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+
+/* Define to prevent recursive inclusion -------------------------------------*/
+#ifndef __MAIN_H
+#define __MAIN_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/* Includes ------------------------------------------------------------------*/
+#include "stm32f1xx_hal.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+
+/* USER CODE END Includes */
+
+/* Exported types ------------------------------------------------------------*/
+/* USER CODE BEGIN ET */
+
+/* USER CODE END ET */
+
+/* Exported constants --------------------------------------------------------*/
+/* USER CODE BEGIN EC */
+
+/* USER CODE END EC */
+
+/* Exported macro ------------------------------------------------------------*/
+/* USER CODE BEGIN EM */
+
+/* USER CODE END EM */
+
+/* Exported functions prototypes ---------------------------------------------*/
+void Error_Handler(void);
+
+/* USER CODE BEGIN EFP */
+
+/* USER CODE END EFP */
+
+/* Private defines -----------------------------------------------------------*/
+#define row2_Pin GPIO_PIN_10
+#define row2_GPIO_Port GPIOB
+#define row3_Pin GPIO_PIN_11
+#define row3_GPIO_Port GPIOB
+#define row4_Pin GPIO_PIN_12
+#define row4_GPIO_Port GPIOB
+#define row5_Pin GPIO_PIN_13
+#define row5_GPIO_Port GPIOB
+#define row6_Pin GPIO_PIN_14
+#define row6_GPIO_Port GPIOB
+#define row7_Pin GPIO_PIN_15
+#define row7_GPIO_Port GPIOB
+#define enm0_Pin GPIO_PIN_8
+#define enm0_GPIO_Port GPIOA
+#define enm1_Pin GPIO_PIN_9
+#define enm1_GPIO_Port GPIOA
+#define enm2_Pin GPIO_PIN_10
+#define enm2_GPIO_Port GPIOA
+#define enm3_Pin GPIO_PIN_11
+#define enm3_GPIO_Port GPIOA
+#define enm4_Pin GPIO_PIN_12
+#define enm4_GPIO_Port GPIOA
+#define enm5_Pin GPIO_PIN_13
+#define enm5_GPIO_Port GPIOA
+#define enm6_Pin GPIO_PIN_14
+#define enm6_GPIO_Port GPIOA
+#define enm7_Pin GPIO_PIN_15
+#define enm7_GPIO_Port GPIOA
+#define row0_Pin GPIO_PIN_8
+#define row0_GPIO_Port GPIOB
+#define row1_Pin GPIO_PIN_9
+#define row1_GPIO_Port GPIOB
+/* USER CODE BEGIN Private defines */
+
+/* USER CODE END Private defines */
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* __MAIN_H */
+
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

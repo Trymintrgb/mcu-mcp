@@ -1,0 +1,14 @@
+input_processing.c:26:6:run_led	8	static
+input_processing.c:45:6:initTrafficLights	4	static
+input_processing.c:60:6:updateTrafficLight	16	static
+input_processing.c:82:6:applyTrafficLight	16	static
+input_processing.c:115:6:display7SEG	24	static
+input_processing.c:129:6:update7SEG_led_1	16	static
+input_processing.c:142:6:update7SEG_led_2	16	static
+input_processing.c:157:6:update_led_1_buffer	16	static
+input_processing.c:162:6:update_led_2_buffer	16	static
+input_processing.c:167:6:stopTrafficLight	8	static
+input_processing.c:174:6:fsm_change_duration	16	static
+input_processing.c:214:6:fsm_set_duration	16	static
+input_processing.c:237:6:run_selected_mode	8	static
+input_processing.c:378:6:fsm_for_input_processing	8	static

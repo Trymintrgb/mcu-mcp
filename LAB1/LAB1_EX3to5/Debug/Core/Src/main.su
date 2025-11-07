@@ -1,0 +1,16 @@
+exercise3.h:13:20:ver_setup_init	8	static
+exercise3.h:19:20:ver_stage2	8	static
+exercise3.h:24:20:ver_stage3	8	static
+exercise3.h:29:20:ver_stage1	8	static
+exercise3.h:37:20:hor_setup_init	8	static
+exercise3.h:43:20:hor_stage2	8	static
+exercise3.h:48:20:hor_stage3	8	static
+exercise3.h:53:20:hor_stage1	8	static
+exercise3.h:60:20:exercise3	8	static
+exercise4.h:22:20:display7SEG1	24	static
+exercise4.h:30:20:display7SEG2	24	static
+exercise5.h:8:20:exercise5	8	static
+main.c:64:5:main	8	static
+main.c:109:6:SystemClock_Config	72	static
+main.c:145:13:MX_GPIO_Init	32	static
+main.c:195:6:Error_Handler	4	static,ignoring_inline_asm
