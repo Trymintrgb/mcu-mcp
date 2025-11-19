@@ -1,0 +1,3 @@
+command_parser.c:22:13:parse_command	8	static
+command_parser.c:36:6:command_parser_fsm	16	static
+command_parser.c:75:9:get_command_flag	16	static
