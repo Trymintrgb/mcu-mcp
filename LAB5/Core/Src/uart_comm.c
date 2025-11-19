@@ -1,9 +1,3 @@
-/*
- * uart_comm.c
- *
- *  Created on: 8 thg 11, 2025
- *      Author: Trinh Viet Thu
- */
 
 #include "uart_comm.h"
 #include "command_parser.h"

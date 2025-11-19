@@ -1,9 +1,4 @@
-/*
- * command_parser.c
- *
- *  Created on: 8 thg 11, 2025
- *      Author: Trinh Viet Thu
- */
+
 
 #include "command_parser.h"
 #include <string.h> // For strcmp
